@@ -1,0 +1,33 @@
+@media screen and (max-width: 800px){
+    .hi{
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .hi{
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 400px){
+    body{
+        overflow-x: hidden;
+    }
+    input[type="number"]{
+        font-size: 2em;
+        width: 1.7em;
+        height: 1.7em;
+    }
+    p{
+        font-size: 1.2em;
+    }
+    .cont{
+        display: inline-block;
+        margin: 0 0.5em;
+    }
+    .hi{
+        font-size: 1em;
+        line-height: 2em;
+    }
+}
